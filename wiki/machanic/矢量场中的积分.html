@@ -20,16 +20,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="theme-color" content="#f8f8f8">
   
-  <title>NAKO's home1</title>
+  <title>machanic：矢量场中的积分 - NAKO's home1</title>
 
   
-    <meta name="description" content="多么脆弱的生命，你却让它死的如此干枯">
+    <meta name="description" content="线积分  向量场积分  梯度、散度、旋度  二维运动中的轨迹">
 <meta property="og:type" content="website">
-<meta property="og:title" content="NAKO&#39;s home1">
-<meta property="og:url" content="https://nakonako4.github.io/index.html">
+<meta property="og:title" content="矢量场中的积分">
+<meta property="og:url" content="https://nakonako4.github.io/wiki/machanic/%E7%9F%A2%E9%87%8F%E5%9C%BA%E4%B8%AD%E7%9A%84%E7%A7%AF%E5%88%86.html">
 <meta property="og:site_name" content="NAKO&#39;s home1">
-<meta property="og:description" content="多么脆弱的生命，你却让它死的如此干枯">
+<meta property="og:description" content="线积分  向量场积分  梯度、散度、旋度  二维运动中的轨迹">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-12-25T02:54:56.073Z">
+<meta property="article:modified_time" content="2022-12-25T02:54:56.073Z">
 <meta property="article:author" content="NAKO">
 <meta name="twitter:card" content="summary">
   
@@ -62,48 +64,57 @@
   
 
 
+
+
   <div class='l_body' id='start'>
-    <aside class='l_left' layout=''>
+    <aside class='l_left' layout='wiki'>
     
 
   
 
-<header class="header"><div class="logo-wrap"><a class="title" href="/"><div class="main" ff="title">NAKO's home1</div><div class="sub cap">Welcome⭐</div></a></div>
-
-<nav class="menu dis-select"><a class="nav-item active" href="/">文章</a><a class="nav-item" href="/wiki/">项目</a><a class="nav-item" href="/notes/">笔记</a><a class="nav-item" href="/more/">更多</a></nav>
-</header>
 
 
-<div class="widgets">
-<widget class="widget-wrapper search"><div class="widget-body"><div class="search-wrapper" id="search"><form class="search-form"><input type="text" class="search-input" id="search-input" placeholder="站内搜索"><svg t="1670596976048" class="icon search-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2676" width="200" height="200"><path d="M938.2 832.6L723.8 618.1c-2.5-2.5-5.3-4.4-7.9-6.4 36.2-55.6 57.3-121.8 57.3-193.1C773.3 222.8 614.6 64 418.7 64S64 222.8 64 418.6c0 195.9 158.8 354.6 354.6 354.6 71.3 0 137.5-21.2 193.2-57.4 2 2.7 3.9 5.4 6.3 7.8L832.5 938c14.6 14.6 33.7 21.9 52.8 21.9 19.1 0 38.2-7.3 52.8-21.8 29.2-29.1 29.2-76.4 0.1-105.5M418.7 661.3C284.9 661.3 176 552.4 176 418.6 176 284.9 284.9 176 418.7 176c133.8 0 242.6 108.9 242.6 242.7 0 133.7-108.9 242.6-242.6 242.6" p-id="2677"></path></svg></form><div id="search-result"></div><div class="search-no-result">没有找到内容！</div></div></div></widget>
 
-<widget class="widget-wrapper recent"><div class="widget-header cap theme dis-select"><span class="name">最近更新</span></div><div class="widget-body related-posts fs14"><a class="item title" href="/2022/12/24/test3/"><span class="title">test3</span></a></div></widget>
+<div class="widgets"><widget class="widget-wrapper logo-wrap wiki"><div class="widget-body"><a style="filter: grayscale(100%)" class="wiki-home cap" href="/"><svg aria-hidden="true" viewBox="0 0 16 16" width="1rem" height="1rem" fill="currentColor"><path fill-rule="evenodd" d="M7.78 12.53a.75.75 0 01-1.06 0L2.47 8.28a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 1.06L4.81 7h7.44a.75.75 0 010 1.5H4.81l2.97 2.97a.75.75 0 010 1.06z"></path></svg>所有项目</a><a class="title" href="/wiki/machanic/%E7%9F%A2%E9%87%8F%E5%9C%BA%E4%B8%AD%E7%9A%84%E7%A7%AF%E5%88%86.html"><div class="main" ff="title">machanic</div><div class="sub cap">(o゜▽゜)o☆</div></a></div></widget>
+<widget class="widget-wrapper search"><div class="widget-body"><div class="search-wrapper" id="search"><form class="search-form"><input type="text" class="search-input" id="search-input" data-filter="/wiki/machanic/" placeholder="在 /wiki/machanic/ 中搜索"><svg t="1670596976048" class="icon search-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2676" width="200" height="200"><path d="M938.2 832.6L723.8 618.1c-2.5-2.5-5.3-4.4-7.9-6.4 36.2-55.6 57.3-121.8 57.3-193.1C773.3 222.8 614.6 64 418.7 64S64 222.8 64 418.6c0 195.9 158.8 354.6 354.6 354.6 71.3 0 137.5-21.2 193.2-57.4 2 2.7 3.9 5.4 6.3 7.8L832.5 938c14.6 14.6 33.7 21.9 52.8 21.9 19.1 0 38.2-7.3 52.8-21.8 29.2-29.1 29.2-76.4 0.1-105.5M418.7 661.3C284.9 661.3 176 552.4 176 418.6 176 284.9 284.9 176 418.7 176c133.8 0 242.6 108.9 242.6 242.7 0 133.7-108.9 242.6-242.6 242.6" p-id="2677"></path></svg></form><div id="search-result"></div><div class="search-no-result">没有找到内容！</div></div></div></widget>
+
+
+
+
+<widget class="widget-wrapper toc multi" id="data-toc"><div class="widget-header cap dis-select"><span class="name">积分</span></div><div class="widget-body fs14"><div class="doc-tree active"><a class="doc-tree-link active" href="/wiki/machanic/%E7%9F%A2%E9%87%8F%E5%9C%BA%E4%B8%AD%E7%9A%84%E7%A7%AF%E5%88%86.html#start"><span class="toc-text">矢量场中的积分</span></a><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BA%BF%E7%A7%AF%E5%88%86"><span class="toc-text"> 线积分</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%91%E9%87%8F%E5%9C%BA%E7%A7%AF%E5%88%86"><span class="toc-text"> 向量场积分</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A2%AF%E5%BA%A6-%E6%95%A3%E5%BA%A6-%E6%97%8B%E5%BA%A6"><span class="toc-text"> 梯度、散度、旋度</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E7%BB%B4%E8%BF%90%E5%8A%A8%E4%B8%AD%E7%9A%84%E8%BD%A8%E8%BF%B9"><span class="toc-text"> 二维运动中的轨迹</span></a></li></ol></div><div class="doc-tree"><a class="doc-tree-link" href="/wiki/machanic/%E5%9D%90%E6%A0%87%E7%B3%BB.html"><span class="toc-text">坐标系</span></a></div></div></widget>
+
+
 
 
 </div>
 
 
     </aside>
-    <div class='l_main list'>
+    <div class='l_main'>
       
-  
-
-<header class="header mobile-only"><div class="logo-wrap"><a class="title" href="/"><div class="main" ff="title">NAKO's home1</div><div class="sub cap">Welcome⭐</div></a></div></header>
-
-
 
       
 
+  
+  
+<div class="bread-nav fs12"><div id="breadcrumb"><a class="cap breadcrumb" id="home" href="/">主页</a><span class="sep"></span><a class="cap breadcrumb" id="menu" href="/wiki/">项目</a><span class="sep"></span><a class="cap breadcrumb" id="proj" href="/wiki/machanic/%E7%9F%A2%E9%87%8F%E5%9C%BA%E4%B8%AD%E7%9A%84%E7%A7%AF%E5%88%86.html">machanic</a></div><div id="post-meta">更新于&nbsp;<time datetime="2022-12-25T02:54:56.073Z">2022-12-25</time></div></div>
+
+  <article class='md-text content wiki'>
+  <h1 class="article-title"><span>矢量场中的积分</span></h1>
+  <h2 id="线积分"><a class="markdownIt-Anchor" href="#线积分"></a> 线积分</h2>
+<h2 id="向量场积分"><a class="markdownIt-Anchor" href="#向量场积分"></a> 向量场积分</h2>
+<h2 id="梯度-散度-旋度"><a class="markdownIt-Anchor" href="#梯度-散度-旋度"></a> 梯度、散度、旋度</h2>
+<h2 id="二维运动中的轨迹"><a class="markdownIt-Anchor" href="#二维运动中的轨迹"></a> 二维运动中的轨迹</h2>
 
   
 
-<div class="nav-wrap"><nav class="sub post cap"><a class="active" href="/">近期发布</a><a href="/archives">归档</a></nav></div>
 
-  <div class="post-list post"><a class="post-card post " href="/2022/12/24/test3/">
-<article class="md-text"><h2 class="post-title">test3</h2><div class="excerpt"><p> This is a test post 3.
-</p></div><div class="meta cap"><span class="cap" id="post-meta">发布于&nbsp;<time datetime="2022-12-24T06:59:49.000Z">2022-12-24</time></span></div></article>
-</a></div>
+  </article>
   
+
+
+  
+
 
 
 
